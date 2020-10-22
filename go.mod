@@ -7,9 +7,11 @@ require (
 	github.com/fatih/color v1.9.0
 	github.com/golangci/golangci-lint v1.31.0 // indirect
 	github.com/kr/text v0.2.0
-	github.com/russross/blackfriday/v2 v2.0.1
+	gopkg.in/russross/blackfriday.v2 v2.0.1
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/stretchr/testify v1.6.1
 	github.com/valyala/fasthttp v1.16.0
 	golang.org/x/net v0.0.0-20200904194848-62affa334b73
 )
+
+replace gopkg.in/russross/blackfriday.v2 => github.com/russross/blackfriday/v2 v2.0.1
