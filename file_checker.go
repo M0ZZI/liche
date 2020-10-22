@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/russross/blackfriday.v2"
+	"github.com/russross/blackfriday"
 	"golang.org/x/net/html"
 )
 
